@@ -137,6 +137,8 @@ public class ServiceActivity extends Activity {
 				intent.putExtra("two", childPosition);
 				startActivityForResult(intent, 0);
 				//startActivity(intent);
+//				Log.i("see the groupPosition",""+groupPosition+""+childPosition);
+//				System.out.println("正在配对111111----"+groupPosition+"-"+childPosition);
 				return false;
 			}
 		});
